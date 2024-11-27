@@ -76,7 +76,7 @@ allows users to analyze reviews dynamically. The dashboard is built using
 
 - https://discuss.elastic.co/t/dec-11th-2022-en-running-elasticsearch-and-kibana-v8-locally-macos-linux-and-windows/320174/2
 - If running locally, ensure Elasticsearch is running and accessible at
-  `http://localhost:9200
+  http://localhost:9200
 
 3. Create .env file with Elasticsearch credentials:
 
@@ -105,11 +105,22 @@ python3 app.py
 
 ## Endpoints
 
-1. / (Homepage) Method: GET Description: Renders the main dashboard page.
-2. /get_reviews Method: GET Query Parameters: brand (required) Description:
-   Fetches reviews for a specific brand.
-3. /mentions_over_time Method: GET Query Parameters: brand (required)
-   Description: Fetches mentions over time for a specific brand.
+1. / (Homepage)
+
+- Method: GET
+- Description: Renders the main dashboard page.
+
+2. /get_reviews
+
+- Method: GET
+- Query Parameters: brand (required)
+- Description: Fetches reviews for a specific brand.
+
+3. /mentions_over_time
+
+- Method: GET
+- Query Parameters: brand (required)
+- Description: Fetches mentions over time for a specific brand.
 
 ## Data Generation
 
