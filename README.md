@@ -18,6 +18,7 @@ allows users to analyze reviews dynamically. The dashboard is built using
 - [Frontend Functionality](#frontend-functionality)
 - [Folder Structure](#folder-structure)
 - [Future Enhancements](#future-enhancements)
+- [Contact](#contact)
 
 ---
 
@@ -170,3 +171,12 @@ project/
 5. Live Data:
 
 - Fetch data from various social media APIs and scrape the browser in real-time.
+
+## Contact
+
+Jayati Goyal -
+[linkedin.com/in/jggoyaljayati](https://linkedin.com/in/jggoyaljayati) -
+jggoyaljayati@gmail.com
+
+Project Link:
+[https://github.com/jggoyaljayati/brand-mentions-social-media](https://github.com/jggoyaljayati/brand-mentions-social-media)
