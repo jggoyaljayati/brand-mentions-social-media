@@ -1,0 +1,184 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: linear-gradient(to right, #4bc0c0, #36a2eb);
+    background-clip: text;
+    /* Standard property */
+    -webkit-background-clip: text;
+    /* Vendor-prefixed for WebKit browsers */
+    -webkit-text-fill-color: transparent;
+    /* Ensure text fill is transparent for gradient effect */
+}
+
+.input-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#brandInput{
+        text-align: center;
+        margin-bottom: 20px;
+        width: 50%;
+        /* Adjust width to make it wider */
+        padding: 10px;
+        /* Add padding for a larger appearance */
+        margin: 0 auto;
+        /* Center it horizontally */
+        border-radius: 15px;
+        /* Add curved corners */
+        background-color: #f9f9f9;
+        /* Optional: Add a light background for better visibility */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        /* Optional: Add a subtle shadow for depth */
+    }
+
+.tag-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tag {
+    display: inline-block;
+    background: #36a2eb;
+    color: white;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+.tag .remove {
+    cursor: pointer;
+    margin-left: 10px;
+    color: #fff;
+}
+
+.wrapper {
+    display: flex;
+    /* Arrange elements side-by-side */
+    justify-content: space-between;
+    gap: 20px;
+    /* Space between chart and reviews */
+    margin: 40px;
+}
+
+.chart-container {
+    flex: 1;
+    /* Chart takes up more space */
+}
+
+.reviews-container{
+    display: none;
+}
+
+.reviews-container.visible {
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    /* Reviews take up less space */
+    border: 1px solid #ccc;
+    /* Optional: Add border for clarity */
+    border-radius: 10px;
+    padding: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* Enable vertical scrolling */
+    max-height: 400px;
+    /* Limit height */
+    background-color: #f9f9f9;
+    /* Optional: Light background */
+}
+
+.reviews-content {
+    padding: 10px;
+}
+
+.reviews-content p {
+    margin: 10px 0;
+    /* Add spacing between reviews */
+    word-wrap: break-word;
+    /* Ensure text wraps within the container */
+    white-space: normal;
+    /* Prevent horizontal scrolling */
+}
+
+h2{
+    font-family: 'Arial', sans-serif;
+    /* Use a clean, modern font */
+    font-size: 28px;
+    /* Adjust font size for emphasis */
+    color: #4bc0c0;
+    /* Choose a color that matches your theme */
+    text-transform: uppercase;
+    /* Make the text uppercase */
+    letter-spacing: 1.5px;
+    /* Add spacing between letters */
+    font-weight: bold;
+    /* Make the text bold */
+    margin-top: 0px;
+    margin-bottom: 10px;
+    /* Add space below the heading */
+
+    /* Flexbox styling */
+    display: flex;
+    /* Enable flexbox */
+    justify-content: center;
+    /* Center content horizontally */
+    align-items: center;
+    /* Center content vertically */
+    width: 100%;
+    /* Take up all available width */
+    text-align: center;
+    /* Center-align text inside the element */
+    height: 30px;
+    /* Optional: Set a fixed height for visual consistency */
+    background-color: #f9f9f9;
+    /* Optional: Add a light background */
+    border-radius: 8px;
+    /* Optional: Add rounded corners */
+}
+
+h3 {
+    font-family: 'Arial', sans-serif;
+    /* Use a clean, modern font */
+    font-size: 25px;
+    /* Adjust font size for emphasis */
+    color: #4bc0c0;
+    /* Choose a color that matches your theme */
+    text-transform: uppercase;
+    /* Make the text uppercase */
+    letter-spacing: 1.5px;
+    /* Add spacing between letters */
+    font-weight: bold;
+    /* Make the text bold */
+    margin-top: 0px;
+    margin-bottom: 10px;
+    /* Add space below the heading */
+
+    /* Flexbox styling */
+    display: flex;
+    /* Enable flexbox */
+    justify-content: left;
+    /* Center content horizontally */
+    align-items: center;
+    /* Center content vertically */
+    width: 100%;
+    /* Take up all available width */
+    text-align: center;
+    /* Center-align text inside the element */
+    height: 30px;
+    /* Optional: Set a fixed height for visual consistency */
+    background-color: #f9f9f9;
+    /* Optional: Add a light background */
+    border-radius: 8px;
+    /* Optional: Add rounded corners */
+}

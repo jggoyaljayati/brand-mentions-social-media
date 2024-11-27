@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brand Mentions Visualization</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="../static/main.js"></script>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+
+<body>
+    <h1>Brand Mentions Dashboard</h1>
+
+    <div class="input-container">
+        <input id="brandInput" type="text" placeholder="Enter a brand and press Enter" />
+    </div>
+
+    <div id="tags" class="tag-container"></div>
+
+    <div class="wrapper">
+        <!-- Chart container -->
+        <div class="chart-container">
+            <svg id="mentionsChart" width="800" height="400"></svg>
+        </div>
+    
+        <!-- Scrollable reviews container -->
+        <div class="reviews-container">
+            <h2>Reviews</h2>
+            <div id="reviews" class="reviews-content">
+                <!-- Reviews will be displayed here -->
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
